@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-div {
+  height: 500px;
+  width: 500px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #ffd124;
+}
+
+.app-row-image {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 400px;
+  margin: 20px;
+}
+.app-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 400px;
+  margin: 20px;
+}
+
+.app-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.app-name {
+  margin: auto;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.app-icons {
+  width: 50px;
+  height: 50px;
+}
+
+section > h4 {
+  margin-top: 15px;
+}
+.btn-change {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.2s;
+}
+.btn-change:active {
+  transform: scale(0.99);
+  box-shadow: none;
+}
